@@ -1,16 +1,11 @@
 extends Node
 
-signal packet_sent
-signal packet_received
-
 const MIN_PACKET_LENGTH = 0.25
 const STARTUP_TIME = 5.0
 var mic_number = 300
 var mics = []
-var record
 var time_elapsed_since_record = 0
 var time_elapsed = 0
-
 
 func _ready():
 	for i in range(mic_number):
