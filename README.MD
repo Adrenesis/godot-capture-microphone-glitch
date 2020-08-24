@@ -1,0 +1,1 @@
+Expose CRASH_BAD_INDEX at cowdata.h:152 when spamming AudioEffectRecord::get_recording()
