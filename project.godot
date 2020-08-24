@@ -15,7 +15,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Nouveau Projet De Jeu"
+config/name="AudioEffectRecord triggering error at cowdata.h:152"
+config/description="This project aim to expose what seem a double write access to a Vector<uint8_t> that AudioEffectRecord is triggering. Resul error at cowdata.h:152."
 run/main_scene="res://CowCapture.tscn"
 config/icon="res://icon.png"
 
